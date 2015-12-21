@@ -1,5 +1,5 @@
 {
-  "name": "isomorphic-seed",
+  "name": "location-router",
   "version": "0.0.0",
   "description": "Scaffolding for isomorphic coffeescript libraries",
   "keywords": [
@@ -21,7 +21,8 @@
   "author": "Zolmeister (https://zolmeister.com/)",
   "dependencies": {
     "coffee-script": "^1.9.3",
-    "lodash": "^3.10.0"
+    "lodash": "^3.10.0",
+    "qs": "^6.0.1"
   },
   "devDependencies": {
     "b-assert": "^0.1.2",
@@ -47,10 +48,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Zorium/isomorphic-seed.git"
+    "url": "https://github.com/Zorium/location-router.git"
   },
   "bugs": {
-    "url": "https://github.com/Zorium/isomorphic-seed/issues"
+    "url": "https://github.com/Zorium/location-router/issues"
   },
-  "homepage": "https://github.com/Zorium/isomorphic-seed"
+  "homepage": "https://github.com/Zorium/location-router"
 }
