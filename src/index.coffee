@@ -43,7 +43,9 @@ module.exports = class Router
     {pathname, search} = parseUrl url
     query = Qs.parse(search?.slice(1))
 
-    {url, path: pathname, query}
+    hostname = window.location.hostname
+
+    {url, path: pathname, query, hostname}
 
   go: (url) =>
     req = @_parse url
