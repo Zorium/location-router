@@ -22,7 +22,7 @@
   "dependencies": {
     "coffee-script": "^1.9.3",
     "lodash": "^3.10.0",
-    "qs": "^6.0.1"
+    "qs": "^5.2.0"
   },
   "devDependencies": {
     "b-assert": "^0.1.2",
