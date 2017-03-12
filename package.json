@@ -21,8 +21,8 @@
   "author": "Zolmeister (https://zolmeister.com/)",
   "dependencies": {
     "coffee-script": "^1.9.3",
-    "lodash": "^3.10.0",
-    "qs": "^5.2.0"
+    "qs": "^5.2.0",
+    "rxjs": "^5.2.0"
   },
   "devDependencies": {
     "b-assert": "^0.1.2",

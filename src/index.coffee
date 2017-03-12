@@ -1,4 +1,5 @@
 Qs = require 'qs'
+Rx = require 'rxjs/Rx'
 
 getCurrentUrl = (mode) ->
   hash = window.location.hash.slice(1)
@@ -34,7 +35,7 @@ module.exports = class Router
     window.addEventListener 'popstate', =>
       if @hasRouted
         setTimeout =>
-          @subject.onNext @_parse()
+          @subject.next @_parse()
 
   getStream: => @subject
 
@@ -56,4 +57,4 @@ module.exports = class Router
       window.location.hash = req.url
 
     @hasRouted = true
-    @subject.onNext req
+    @subject.next req
