@@ -52,10 +52,7 @@ module.exports = class Router
     req = @_parse url
 
     if @mode is 'pathname'
-      if @hasRouted
-        window.history.pushState null, null, req.url
-      else
-        window.history.replaceState null, null, req.url
+      window.history.pushState null, null, req.url
     else
       window.location.hash = req.url
 
