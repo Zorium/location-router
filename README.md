@@ -1,1 +1,3 @@
-# isomorphic-seed
+# Location Router
+
+deprecated (for now)
